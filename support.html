@@ -2,81 +2,205 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Get help with Krumo, the Spanish reading and story app. Contact support, restore purchases, and manage your subscription.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Get help with Krumo's reading features, audio, subscriptions, and Family Sharing."
+  >
   <title>Krumo Support</title>
+
   <style>
-    :root { color-scheme: light; }
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      background: #fff8e9;
-      color: #26233d;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fff;
+      color: #252525;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
       font-size: 17px;
       line-height: 1.65;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.35rem;
+    }
+
+    a {
+      color: #17633b;
+      text-underline-offset: 3px;
       overflow-wrap: anywhere;
     }
-    main { max-width: 800px; margin: 0 auto; padding: 48px 24px 64px; }
-    h1, h2 { color: #4b36a7; line-height: 1.25; }
-    h1 { font-size: clamp(2rem, 6vw, 2.7rem); margin: 0 0 16px; }
-    h2 { font-size: 1.35rem; margin: 32px 0 12px; }
-    p { margin: 12px 0; }
-    a { color: #4b36a7; text-underline-offset: 3px; }
-    a:focus-visible { outline: 3px solid #4b36a7; outline-offset: 4px; }
-    .contact { background: #ffffff; border: 1px solid #ded5ef; border-radius: 16px; padding: 20px 24px; margin: 24px 0; }
-    .contact h2 { margin-top: 0; }
-    .email { display: inline-block; font-weight: 700; padding: 6px 0; }
-    ul, ol { padding-left: 24px; }
-    li { margin: 8px 0; }
-    footer { border-top: 1px solid #ded5ef; margin-top: 36px; padding-top: 20px; font-size: 0.95rem; }
-    footer nav { display: flex; flex-wrap: wrap; gap: 12px 24px; }
-    .updated { font-size: 0.9rem; color: #625d70; }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #17633b;
+      outline-offset: 4px;
+    }
+
+    ol {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 0.95rem;
+    }
+
+    footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 24px;
+    }
+
+    .updated {
+      margin-bottom: 0;
+      color: #595959;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
+
 <body>
   <main>
-    <header>
-      <h1>Krumo Support</h1>
-      <p>Need a hand with Krumo? Get help with reading features, audio, subscriptions, or anything that is not working as expected. Ideas and feedback are welcome too.</p>
-    </header>
+    <h1>Krumo Support</h1>
 
-    <section class="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact us</h2>
+    <p>
+      Need a hand with Krumo? Get help with reading features, audio,
+      subscriptions, or anything that is not working as expected.
+      Ideas and feedback are welcome too.
+    </p>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact us</h2>
+
       <p>Parents and guardians can email Krumo Support at:</p>
-      <a class="email" href="mailto:krumo.support@gmail.com">krumo.support@gmail.com</a>
-      <p>For a technical problem, please include your device model, operating system version, and a short description of what happened. If an error appears, include its wording.</p>
+
+      <p>
+        <a href="mailto:krumo.support@gmail.com">
+          <strong>krumo.support@gmail.com</strong>
+        </a>
+      </p>
+
+      <p>
+        For a technical problem, please include your device model,
+        operating system version, and a short description of what
+        happened. If an error appears, include its wording.
+      </p>
     </section>
 
-    <section aria-labelledby="purchases-heading">
-      <h2 id="purchases-heading">Restore a purchase on iPhone or iPad</h2>
-      <p>If you have an active Krumo Premium subscription but premium stories are locked:</p>
+    <section aria-labelledby="restore">
+      <h2 id="restore">Restore a purchase on iPhone or iPad</h2>
+
+      <p>
+        If you have an active Krumo Premium subscription but premium
+        stories are locked:
+      </p>
+
       <ol>
-        <li>Check that the App Store is signed in to the same Apple Account used for the subscription.</li>
-        <li>Connect to the internet and open Krumo's subscription screen, completing the parental gate if prompted.</li>
-        <li>Tap <strong>Restore Purchases</strong>.</li>
+        <li>
+          If you purchased the subscription, check that the App Store
+          is signed in to the Apple Account used for that purchase.
+          If you access Premium through Family Sharing, use your own
+          Apple Account and check that you are in the subscriber's
+          Family Sharing group and that the Krumo subscription is
+          shared with the family.
+        </li>
+
+        <li>
+          Connect to the internet and open Krumo's subscription screen,
+          completing the parental gate if prompted.
+        </li>
+
+        <li>
+          Tap <strong>Restore Purchases</strong>.
+        </li>
       </ol>
-      <p>If access is still missing, contact us using the email above. You can also read <a href="https://support.apple.com/en-us/108096">Apple's guidance on restoring purchases</a>.</p>
+
+      <p>
+        If access is still missing, contact us using the email above.
+        You can also read
+        <a href="https://support.apple.com/en-us/108096">
+          Apple's guidance on restoring purchases</a>.
+      </p>
     </section>
 
-    <section aria-labelledby="subscriptions-heading">
-      <h2 id="subscriptions-heading">Manage or cancel an Apple subscription</h2>
-      <p>On your iPhone or iPad, open <strong>Settings &gt; your name &gt; Subscriptions &gt; Krumo</strong> to view or manage your subscription. To stop renewal, choose <strong>Cancel Subscription</strong>.</p>
-      <p><a href="https://support.apple.com/en-us/118428">View Apple's subscription cancellation instructions</a>.</p>
+    <section aria-labelledby="subscriptions">
+      <h2 id="subscriptions">Manage or cancel an Apple subscription</h2>
+
+      <p>
+        On your iPhone or iPad, open
+        <strong>Settings &gt; your name &gt; Subscriptions &gt; Krumo</strong>
+        to view or manage your subscription. To stop renewal, choose
+        <strong>Cancel Subscription</strong>.
+      </p>
+
+      <p>
+        <a href="https://support.apple.com/en-us/118428">
+          View Apple's subscription cancellation instructions
+        </a>.
+      </p>
     </section>
 
-    <section aria-labelledby="audio-heading">
-      <h2 id="audio-heading">Help with story audio</h2>
-      <p>If you cannot hear the narration, check your device's media volume and whether sound is being sent to Bluetooth headphones or another connected speaker. Then try playing a story sentence again.</p>
-      <p>If the issue continues, tell us which story and Spanish audio variant you selected so we can investigate.</p>
+    <section aria-labelledby="audio">
+      <h2 id="audio">Help with story audio</h2>
+
+      <p>
+        If you cannot hear the narration, check your device's media
+        volume and whether sound is being sent to Bluetooth headphones
+        or another connected speaker. Then try playing a story
+        sentence again.
+      </p>
+
+      <p>
+        If the issue continues, tell us which story and Spanish audio
+        variant you selected so we can investigate.
+      </p>
     </section>
 
     <footer>
-      <nav aria-label="Privacy information">
-        <a href="./">Privacy Policy</a>
-        <a href="./delete-data.html">Privacy and Data Deletion Requests</a>
+      <nav aria-label="Privacy links">
+        <a href="https://mikebrad75.github.io/krumo-privacy/">
+          Privacy Policy
+        </a>
+
+        <a href="https://mikebrad75.github.io/krumo-privacy/delete-data.html">
+          Privacy and Data Deletion Requests
+        </a>
       </nav>
-      <p class="updated">Last updated: September 18, 2026</p>
+
+      <p class="updated">
+        Last updated:
+        <time datetime="2026-09-30">September 30, 2026</time>
+      </p>
     </footer>
   </main>
 </body>
